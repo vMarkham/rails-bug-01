@@ -1,5 +1,10 @@
 # Rails Practice
 
+## Overview
+
+This app has __3 branches__. `master`, `bugs-02`, and `bugs-03`. Your mission is to work
+through each branch one at a time, find and fix the bug. Start with `master` branch.
+
 ## Setup
 
 * `bundle`
@@ -16,9 +21,15 @@ You can run specs with:
 One of your clients tells you that their site it totally broken.  
 You download the app and run it locally and it seems fine, so you decide to pull in production data (see above).
 
-Your job is to find and fix the bug.
+Your job is to find and fix all 3 bugs:
 
-What happens now:
+__login info__
+```
+username: user@example.com
+password: password
+```
+
+What happens:
 
 * You login
 * It blows up
